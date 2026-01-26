@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Antigravity - URL Handler
-Comment=Code Editing. Redefined.
+Comment=Build the new way
 GenericName=Text Editor
 Exec=antigravity --open-url %U
 Icon=antigravity

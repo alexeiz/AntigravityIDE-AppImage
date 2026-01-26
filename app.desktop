@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=Antigravity
-Comment=Code Editing. Redefined.
+Comment=Build the new way
 Exec=antigravity %F
 Icon=antigravity
 Categories=TextEditor;Development;IDE;
