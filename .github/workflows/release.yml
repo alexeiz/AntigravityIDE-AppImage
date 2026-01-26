@@ -34,8 +34,8 @@ jobs:
         uses: tyvsmith/appimage-bash@main
         with:
           version_url: ${{ steps.get_url.outputs.download_url }}
-          version_file: 'resources/app/package.json'
-          version_bash: 'jq -r ".version+\"-\"+.distro"'
+          version_file: 'resources/app/product.json'
+          version_bash: 'jq -r ".ideVersion"'
           version_icon: 'antigravity.png'
       - name: Upload artifact
         if: ${{ env.APP_UPDATE_NEEDED == 'true' }}
