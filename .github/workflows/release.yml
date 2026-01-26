@@ -9,7 +9,7 @@ on:
 
 jobs:
   version:
-    name: VSCode Insiders AppImage
+    name: Antigravity AppImage
     runs-on: ubuntu-20.04
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -19,10 +19,10 @@ jobs:
         id: build
         uses: tyvsmith/appimage-bash@main
         with:
-          version_url: 'https://code.visualstudio.com/sha/download?build=insider\&os=linux-x64'
+          version_url: 'https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/1.15.8-5724687216017408/linux-x64/Antigravity.tar.gz'
           version_file: 'resources/app/package.json'
           version_bash: 'jq -r  .version'
-          version_icon: 'code.png'
+          version_icon: 'antigravity.png'
       - name: Upload artifact
         if: ${{ env.APP_UPDATE_NEEDED == 'true' }}
         uses: actions/upload-artifact@v4

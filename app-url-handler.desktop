@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=Visual Studio Code - Insiders - URL Handler
+Name=Antigravity - URL Handler
 Comment=Code Editing. Redefined.
 GenericName=Text Editor
-Exec=code-insiders --open-url %U
-Icon=code-insiders
+Exec=antigravity --open-url %U
+Icon=antigravity
 Type=Application
 NoDisplay=true
 StartupNotify=true
 Categories=Utility;TextEditor;Development;IDE;
-MimeType=x-scheme-handler/vscode-insiders;
-Keywords=vscode;Visual Studio Code;Code;vscode-insiders;Visual Studio Code - Insiders;Code-Insiders
+MimeType=x-scheme-handler/antigravity;
+Keywords=Antigravity;antigravity

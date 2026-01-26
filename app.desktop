@@ -1,18 +1,18 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Visual Studio Code - Insiders
+Name=Antigravity
 Comment=Code Editing. Redefined.
-Exec=code-insiders %F
-Icon=code-insiders
+Exec=antigravity %F
+Icon=antigravity
 Categories=TextEditor;Development;IDE;
-StartupWMClass=Code - Insiders
+StartupWMClass=Antigravity
 StartupNotify=true
-Keywords=vscode;Visual Studio Code;Code;vscode-insiders;Visual Studio Code - Insiders;Code-Insiders
+Keywords=Antigravity;antigravity
 MimeType=text/plain;inode/directory;application/x-code-workspace;
 Actions=new-empty-window;
 
 [Desktop Action new-empty-window]
 Name=New Empty Window
-Exec=code-insiders --new-window %F
-Icon=code-insiders
+Exec=antigravity --new-window %F
+Icon=antigravity
