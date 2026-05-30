@@ -2,8 +2,8 @@
 Name=Antigravity IDE - URL Handler
 Comment=Build the new way
 GenericName=Text Editor
-Exec=antigravity --open-url %U
-Icon=antigravity
+Exec=antigravity-ide --open-url %U
+Icon=antigravity-ide
 Type=Application
 NoDisplay=true
 StartupNotify=true
