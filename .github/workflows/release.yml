@@ -9,7 +9,7 @@ on:
 
 jobs:
   version:
-    name: Antigravity AppImage
+    name: AntigravityIDE AppImage
     runs-on: ubuntu-22.04
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
