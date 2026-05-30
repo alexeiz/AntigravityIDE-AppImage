@@ -1,11 +1,11 @@
-<h2 align="center">Antigravity AppImage</h2>
-<p align="center">Unofficial / Community provided Google Antigravity AppImage</p>
+<h2 align="center">Antigravity IDE AppImage</h2>
+<p align="center">Unofficial Google Antigravity IDE AppImage</p>
 
-[![Antigravity AppImage release](https://github.com/tyvsmith/Antigravity-AppImage/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/tyvsmith/Antigravity-AppImage/actions/workflows/release.yml)
+[![Antigravity AppImage release](https://github.com/alexeiz/AntigravityIDE-AppImage/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/alexeiz/AntigravityIDE-AppImage/actions/workflows/release.yml)
 
 ## Get Started
 
-#### [Download the latest release](https://github.com/tyvsmith/Antigravity-AppImage/releases/latest)
+#### [Download the latest release](https://github.com/alexeiz/AntigravityIDE-AppImage/releases/latest)
 - Automatically built from the latest stable release
 - Supports AppImage self-update
 
