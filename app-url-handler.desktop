@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Antigravity - URL Handler
+Name=Antigravity IDE - URL Handler
 Comment=Build the new way
 GenericName=Text Editor
 Exec=antigravity --open-url %U
